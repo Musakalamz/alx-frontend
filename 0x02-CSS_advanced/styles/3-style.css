@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: #d73953;
+}
+
+.section-tagline {
+  color: #d73953;
+}
+
+/* Targetting root element */
+
+.color-primary {
+  color: #d73953;
+}
+
+.color-black {
+  color: #090909;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-light-grey {
+  color: #f3f3f3;
+}
+
+.color-dark-grey {
+  color: #353535;
+}
+
+.text-color {
+  color: black;
+}
