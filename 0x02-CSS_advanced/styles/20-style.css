@@ -288,9 +288,10 @@ ul.row {
   list-style: none;
 }
 
-.row {
-    clear: both;
-    display: table-row;
+.row::after {
+    content: "";
+  clear: both;
+  display: table-row;
 }
 
 .col-1-2 {
