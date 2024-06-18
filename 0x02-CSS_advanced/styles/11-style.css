@@ -33,7 +33,7 @@
   --section-header-align: center;
 
   /* Transforming Texts */
-  --section-tagline-transform: uppercase:
+  --section-tagline-transform: uppercase;
 }
 
 html {
