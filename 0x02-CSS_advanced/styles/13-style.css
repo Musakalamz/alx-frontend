@@ -64,7 +64,11 @@ a {
   text-decoration: none;
 }
 
-a:link,
+a:link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 a:visited {
   font-style: italic;
 }
