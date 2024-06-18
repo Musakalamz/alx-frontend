@@ -282,10 +282,16 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-.row ul {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.col-1-2 {
+  width: 50%;
+  float: left;
+  padding: 0.5rem;
 }
 
 .col-1-3 {
@@ -346,12 +352,12 @@ a:active {
   padding: var(--footer-padding);
 }
 
-.footer ul {
-  text-align: right;
-}
-
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
+}
+
+.footer ul {
+  text-align: right;
 }
