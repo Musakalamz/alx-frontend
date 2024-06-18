@@ -289,9 +289,9 @@ ul.row {
 }
 
 .row::after {
-    content: "";
+  content: "";
   clear: both;
-  display: table-row;
+  display: table;
 }
 
 .col-1-2 {
